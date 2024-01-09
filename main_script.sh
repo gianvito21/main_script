@@ -6,7 +6,7 @@ echo $token
 echo $resourceGroup 
 echo $aksName
 
-curl -H 'Authorization: token $token'   -H 'Accept: application/vnd.github.v3.raw'   -O   -L https://raw.githubusercontent.com/gianvito21/deploymentsfile/main/script.txt
+curl -H "Authorization: token $token"   -H 'Accept: application/vnd.github.v3.raw'   -O   -L https://raw.githubusercontent.com/gianvito21/deploymentsfile/main/script.txt
 cat script.txt
 echo "separatoreeeee"
 ls
