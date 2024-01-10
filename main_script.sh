@@ -12,6 +12,6 @@ cat script.sh
 echo "separatoreeeee"
 ls
 chmod +x script.sh
-. cmkfmcfdmc.sh
+. script.sh $resourceGroup $aksName
 # ./script.sh $resourceGroup $aksName
 # . script.sh $resourceGroup $aksName
